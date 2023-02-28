@@ -1,0 +1,797 @@
+/* screen - new-account */
+
+* {
+  box-sizing: border-box;
+}
+
+.new-account {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  min-height: 953px;
+  width: 1732px;
+}
+
+.new-account .Search-bar {
+  flex-direction: column;
+  gap: 2px;
+  min-height: 870px;
+  width: 1732px;
+}
+
+.new-account .Top-navbar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  min-height: 200px;
+  width: 1732px;
+}
+
+.new-account .Top-navbar-and-search-catalog {
+  height: 133px;
+  position: relative;
+  width: 1732px;
+}
+
+.new-account .overlap-group2 {
+  height: 111px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1732px;
+}
+
+.new-account .Gray-top-navbar-background {
+  background-color: var(--alto);
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 1732px;
+}
+
+.new-account .about-us {
+  left: 1332px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.new-account .events {
+  left: 1235px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.new-account .location {
+  left: 1114px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.new-account .sign-in {
+  left: 1462px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.new-account .Search_icon {
+  height: 23px;
+  left: 1643px;
+  position: absolute;
+  top: 27px;
+  width: 36px;
+}
+
+.new-account .Library_Logo {
+  height: 111px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 111px;
+}
+
+.new-account .Search-genre {
+  background-color: var(--alto);
+  border-radius: 6px;
+  height: 25px;
+  left: 1591px;
+  position: absolute;
+  top: 108px;
+  width: 87px;
+}
+
+.new-account .navbar-link-genre {
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.new-account .Drop-down-arrow {
+  height: 5px;
+  left: 70px;
+  position: absolute;
+  top: 11px;
+  width: 10px;
+}
+
+.new-account .Search-format {
+  background-color: var(--alto);
+  border-radius: 5px;
+  height: 25px;
+  left: 1483px;
+  position: absolute;
+  top: 108px;
+  width: 95px;
+}
+
+.new-account .navbar-link-format {
+  left: 8px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.new-account .rectangle-1 {
+  background-color: var(--alto);
+  border-radius: 5px;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 95px;
+}
+
+.new-account .search-catalog-container {
+  height: 24px;
+  left: 987px;
+  position: absolute;
+  top: 107px;
+  width: 150px;
+}
+
+.new-account .Search-title {
+  background-color: var(--alto);
+  border-radius: 5px;
+  height: 25px;
+  left: 1150px;
+  position: absolute;
+  top: 108px;
+  width: 143px;
+}
+
+
+.new-account .Gray-box {
+  background-color: var(--alto);
+  border-radius: 5px;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+
+.new-account .Gray-box-outline {
+  background-color: var(--alto);
+  border-radius: 5px;
+  box-shadow: inset 0px 4px 4px #00000040;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 143px;
+}
+
+.new-account .navbar-link-title {
+  left: 7px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}
+
+.new-account .Search-ISBN {
+  background-color: var(--alto);
+  border-radius: 5px;
+  height: 25px;
+  left: 1317px;
+  position: absolute;
+  top: 108px;
+  width: 143px;
+}
+
+.new-account .ask-us {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 69px;
+  min-height: 32px;
+}
+
+new-account {
+  gap: 177px;
+  height: 668px;
+  margin-left: 69px;
+  min-width: 1315px;
+}
+
+.new-account .Side-navbar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 11px;
+  min-height: 347px;
+  width: 209px;
+}
+
+.new-account .Welcome-register {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-height: 668px;
+  width: 929px;
+}
+
+.new-account .Welcome-heading {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  min-height: 131px;
+  width: 788px;
+}
+
+.new-account .title {
+  color: var(--metallic-copper);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 788px;
+}
+
+.new-account .lets-get-reading {
+  color: #ed907f;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 454px;
+}
+
+.new-account .Acct-info-needed {
+  align-items: flex-start;
+  display: flex;
+  gap: 79px;
+  height: 528px;
+  min-width: 929px;
+}
+
+.new-account .Add-picture-here {
+  align-items: flex-end;
+  background-color: var(--alto);
+  border-radius: 191.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 36px;
+  min-height: 383px;
+  padding: 74px 86.7px;
+  width: 383px;
+}
+
+.new-account .Add_picture {
+  height: 181px;
+  margin-top: 19px;
+  width: 199px;
+}
+
+.new-account .upload-image {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 6.33px;
+  text-decoration: underline;
+  text-shadow: 0px 4px 4px #00000040;
+  width: 181px;
+}
+
+.new-account .Fill-in {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 528px;
+  width: 467px;
+}
+
+.new-account .create-an-account {
+  color: #984f1f;
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  width: 466px;
+}
+
+.new-account .full-name {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 49px;
+  min-height: 31px;
+}
+
+.new-account .Gray-box-fill-info {
+  background-color: var(--alto);
+  box-shadow: inset 0px 4px 4px #00000040;
+  height: 42px;
+  margin-top: 9px;
+  width: 448px;
+}
+
+.new-account .flex-col-item-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 30px;
+  min-height: 31px;
+}
+
+.new-account .Submit-or-signin {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  margin-left: 596.0px;
+  min-width: 402px;
+}
+
+.new-account .Register {
+  align-items: flex-start;
+  background-color: var(--salem);
+  border-radius: 17px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 43px;
+  min-width: 248px;
+  padding: 5px 21px;
+}
+
+.new-account .register-account {
+  color: var(--white);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 195px;
+}
+
+.new-account .already-registered {
+  color: var(--black);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 13.0px;
+  min-height: 14px;
+  min-width: 106px;
+}
+
+.new-account .sign-in-1 {
+  color: var(--navy-blue-2);
+  font-family: var(--font-family-tahoma-regular);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 9.0px;
+  min-height: 14px;
+  min-width: 38px;
+  text-decoration: underline;
+  text-shadow: 0px 4px 4px #00000040;
+}
+
+.rectangle {
+  background-color: var(--alto);
+  border-radius: 6px;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 87px;
+}
+
+/*.navbar-link-format {
+  left: 5px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+}*/
+
+.Search-catalog {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+.flex-col-item {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+}
+
+.flex {
+  align-items: flex-start;
+  display: flex;
+}
+
+.genre {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 19px;
+  min-width: 46px;
+}
+
+.format {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 19px;
+  min-width: 53px;
+}
+
+/* responsive css */
+@media all and (max-width:1640px){
+  .new-account {
+    min-height: auto;
+    max-width: 1732px;
+    width: 100%;
+    align-items: inherit;
+    margin-bottom: 40px;
+  }
+ .new-account .Search-bar {
+    max-width: 1732px;
+    width: 100%;
+  }
+  .new-account .Top-navbar{
+    max-width: 1732px;
+    width: 100%;
+    min-height: auto;
+  }
+  .new-account .Top-navbar-and-search-catalog {
+    max-width: 1732px;
+    width: 100%;
+  }
+  .new-account .overlap-group2 {
+    max-width: 1732px;
+    width: 100%;
+  }
+  .Page-content {
+    height: auto;
+    margin-left:0;
+    max-width: 1574px;
+    width: 100%;
+    padding:0 15px;
+    min-width: 100%;
+  }
+  .new-account .Welcome-section {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .new-account .Student-section {
+    width: 100%;
+  }
+  .new-account .overlap-group {
+    width: 100%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .new-account .Side-navbar {
+    min-height: auto;
+    min-width: 209px;
+    width: 209px;
+  }
+  
+  .new-account .at-vero-eos-et-accu {
+    width: 100%;
+  }
+  .new-account .Kids-section {
+    width: 100%;
+  }
+  .new-account .Search_icon {
+    left: auto;
+    right: 0;
+  }
+  .new-account .sign-in {
+    left: auto;
+    right: 90px;
+  }
+  .new-account .about-us {
+    left: auto;
+    right: 206px;
+  }
+  .new-account .events {
+    left: auto;
+    right: 355px;
+  }
+  .new-account .location {
+    left: auto;
+    right: 465px;
+  }
+  .new-account .Search-genre {
+    left: auto;
+    right: 0;
+  }
+  .new-account .Search-format {
+    left: auto;
+    right: 108px;
+  }
+  .new-account .Search-ISBN {
+    left: auto;
+    right: 223px;
+  }
+  .new-account .Search-title {
+    left: auto;
+    right: 386px;
+  }
+  
+  .new-account .search-catalog-container {
+    left: auto;
+    right: 549px;
+  }
+  .new-account .Search-catalog {
+    left: auto;
+  }
+  .new-account .Gray-top-navbar-background {
+    width: 100%;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .new-account .Welcome-register {
+    width: 100%;
+  }
+}
+@media all and (max-width:1200px){
+  .new-account .Welcome-heading {
+    width: 100%;
+    display: block;
+  }
+  .new-account .Acct-info-needed {
+    display: block;
+    height: auto;
+    min-width: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .new-account .Submit-or-signin {
+    margin-left: 420px;
+  }
+  .new-account .title {
+    width: auto;
+  }
+  .new-account .Fill-in {
+    width: 100%;
+  }
+}
+@media all and (max-width:991px){
+  .Page-content.flex {
+    display:block;
+  }
+  .new-account .Side-navbar {
+    min-height: auto;
+    min-width: auto;
+    width: 100%;
+    text-align: center;
+  }
+  .new-account .Side-navbar {
+    display: block;
+  }
+  .new-account .Welcome-register {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .new-account .title {
+    width: auto;
+    font-size: 35px;
+  }
+  .new-account .lets-get-reading {
+    width: 100%;
+    font-size: 35px;
+  }
+  .new-account .Add-picture-here {
+    min-height: 320px;
+    padding: 20px 60.7px;
+    width: 320px;
+    margin: auto;
+    text-align: center;
+  }
+  .new-account .create-an-account {
+    width: 100%;
+    font-size: 35px;
+    padding-top: 30px;
+  }
+  .new-account .Gray-box-fill-info {
+    width: 100%;
+  }
+  .new-account .Submit-or-signin {
+    margin-left: 15px;
+  }
+}
+
+@media all and (max-width:767px){
+  .new-account .Search-bar {
+    height: auto;
+    min-height: auto;
+  }
+  .new-account .Top-navbar {
+    height: auto;
+    position: initial;
+  }
+  .new-account .about-us {
+    padding-top: 78px;
+    position: initial;
+    text-align: center;
+  }
+  .new-account .events {
+    position: initial;
+    text-align: center;
+  }
+  .new-account .location {
+    position: initial;
+    text-align: center;
+  }
+  .new-account .Library_Logo {
+    height: 68px;
+    left: 6px;
+    top: 6px;
+    width: 68px;
+  }
+  .new-account .Search-catalog {
+    position: initial;
+    text-align: center;
+    width: 100%;
+  }
+  .new-account .Search-title {
+    position: relative;
+    width: 230px;
+    margin: auto;
+    left:0;
+    right: 0;
+    top: auto;
+  }
+  .new-account .Search-ISBN {
+    position: relative;
+    width: 230px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    top:auto;
+    left: auto;
+    right: auto;
+  }
+  .new-account .Student-section {
+    margin: 0;
+    margin-top: 30px;
+  }
+  .new-account .Search-genre {
+    position: relative;
+    width: 230px;
+    margin: auto;
+    top: 145px;
+    justify-content: flex-start;
+  }
+  .new-account .Search-format {
+    position: relative;
+    top: 155px;
+    width: 230px;
+    margin: auto;
+    left: 0;
+  }
+  .new-account .Brown-box-1 {
+    width: 260px;
+  }
+  .new-account .student-programs {
+    font-size: 25px;
+  }
+  .new-account .students {
+    font-size: 25px;
+  }
+  .new-account .Brown-box-3 {
+    width: 260px;
+  }
+  .new-account .kid-programs {
+    font-size: 25px;
+  }
+  .new-account .search-catalog-container {
+    left: auto;
+    right: 549px;
+    position: initial;
+    text-align: center;
+    width: 100%;
+  }
+  .new-account .Top-navbar-and-search-catalog {
+    height: auto;
+  }
+  .new-account .overlap-group2 {
+    height: auto;
+    position: relative;
+  }
+  .new-account .Gray-box-outline {
+    width: 100%;
+  }
+  .Page-content.flex {
+    padding-top: 30px;
+  }
+}
+@media all and (max-width:575px){
+  .new-account .title {
+    font-size: 30px;
+  }
+  .new-account .lets-get-reading {
+    font-size: 30px;
+  }
+  .new-account .create-an-account {
+    font-size: 30px;
+  }
+  .new-account .full-name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .new-account .flex-col-item-1 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .new-account .Submit-or-signin {
+    display: block;
+    margin: 0 !important;
+    min-width: auto;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .new-account .register-account {
+    width: 100%;
+  }
+  .new-account .Add-picture-here {
+    min-height: 278px;
+    padding: 35px 56.7px;
+    width: 278px;
+    align-items: center;
+  }
+  .new-account .Add_picture {
+    height: 140px;
+    margin-top: 19px;
+    width: 145px;
+  }
+  .new-account .upload-image {
+    font-size: 20px;
+  }
+}
+
+

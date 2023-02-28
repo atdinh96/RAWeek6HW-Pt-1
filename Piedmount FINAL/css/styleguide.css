@@ -1,0 +1,130 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700|Mate:400");
+
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --jewel: #246d2b;
+  --metallic-copper: #732c2c;
+  --navy-blue: #1865d8;
+  --navy-blue-2: #2477d8;
+  --salem: #067c43;
+  --tiber: #0b303f38;
+  --white: #ffffff;
+ 
+  --font-size-l: 26px;
+  --font-size-m: 25px;
+  --font-size-s: 20px;
+  --font-size-xl: 30px;
+  --font-size-xs: 16px;
+  --font-size-xxl: 50px;
+  --font-size-xxs: 10px;
+ 
+  --font-family-imbue-regular: "Imbue-Regular", Helvetica;
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-mandali-regular: "Mandali-Regular", Helvetica;
+  --font-family-mate: "Mate", Helvetica;
+  --font-family-merge_one-regular: "Merge One-Regular", Helvetica;
+  --font-family-merriweather-bold: "Merriweather-Bold", Helvetica;
+  --font-family-merriweather-regular: "Merriweather-Regular", Helvetica;
+  --font-family-merriweather_sans-regular: "Merriweather Sans-Regular", Helvetica;
+  --font-family-microsoft_jhenghei_ui-regular: "Microsoft JhengHei UI-Regular", Helvetica;
+  --font-family-tahoma-regular: "Tahoma-Regular", Helvetica;
+  --font-family-tienne-bold: "Tienne-Bold", Helvetica;
+  --font-family-tiro_devanagari_hindi-regular: "Tiro Devanagari Hindi-Regular", Helvetica;
+}
+.mate-normal-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-mate);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.inter-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mergeone-regular-normal-black-26px {
+  color: var(--black);
+  font-family: var(--font-family-merge_one-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.mandali-regular-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-mandali-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-bold-black-30px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.microsoftjhengheiui-regular-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-microsoft_jhenghei_ui-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tienne-bold-navy-blue-20px {
+  color: var(--navy-blue);
+  font-family: var(--font-family-tienne-bold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.imbue-regular-normal-black-50px {
+  color: var(--black);
+  font-family: var(--font-family-imbue-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-50px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}

@@ -1,0 +1,492 @@
+/* Library about page */
+/* Fonts in styleguide.css */
+
+.about-page {
+  align-items: center;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  min-height: 937px;
+  width: 1765px;
+}
+
+.about-page .Search-bar {
+  height: 111px;
+  position: relative;
+  width: 1765px;
+}
+
+.about-page .Top-navbar {
+  background-color: var(--alto);
+  height: 36px;
+  left: 0;
+  position: absolute;
+  top: 23px;
+  width: 1765px;
+}
+
+.about-page .about-us {
+  left: 1334px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 26px;
+}
+
+.about-page .events {
+  left: 1235px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.about-page .location {
+  left: 1114px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.about-page .sign-in {
+  left: 1466px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 25px;
+}
+
+.about-page .Search_icon {
+  height: 23px;
+  left: 1643px;
+  position: absolute;
+  top: 27px;
+  width: 36px;
+}
+
+.about-page .Library_Logo {
+  cursor: pointer;
+  height: 111px;
+  left: 37px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 111px;
+}
+
+.about-page .Page-content {
+  align-items: center;
+  display: flex;
+  gap: 17px;
+  height: 807px;
+  margin-right: 38.0px;
+  min-width: 1653px;
+}
+
+.about-page .Sidenav-aboutpeadmount {
+  align-items: flex-start;
+  display: flex;
+  gap: 64px;
+  height: 781px;
+  margin-top: 12.0px;
+  min-width: 924px;
+}
+
+.about-page .Side-navbar {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 23px;
+  min-height: 347px;
+  width: 209px;
+}
+
+.about-page .About-peadmount {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 781px;
+  width: 651px;
+}
+
+.about-page .title {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 18px;
+  min-height: 60px;
+}
+
+.about-page .blurb_1 {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 39px;
+  min-height: 174px;
+  width: 633px;
+}
+
+.about-page .woman_with_books {
+  height: 435px;
+  margin-top: 73px;
+  object-fit: cover;
+  width: 617px;
+}
+
+.about-page .Our-mission-our-why {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 807px;
+  width: 712px;
+}
+
+.about-page .blurb_2 {
+  margin-top: 19px;
+}
+
+.about-page .Our-why {
+  margin-top: 44px;
+}
+
+.about-page .blurb_3 {
+  margin-top: 30px;
+}
+
+.about-page .blurb_4 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 297px;
+  width: 712px;
+}
+
+.about-page .Our-mission {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 60px;
+}
+
+
+/*cell phones*/
+@media only screen and (min-width: 600px) {
+  .about-page {
+    
+  }
+  
+  .about-page .Search-bar {
+    height: 111px;
+    position: relative;
+    width: 1765px;
+  }
+  
+  .about-page .Top-navbar {
+    background-color: var(--alto);
+    height: 36px;
+    left: 0;
+    position: absolute;
+    top: 23px;
+    width: 1765px;
+  }
+  
+  .about-page .about-us {
+    left: 1334px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 26px;
+  }
+  
+  .about-page .events {
+    left: 1235px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+  }
+  
+  .about-page .location {
+    left: 1114px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+  }
+  
+  .about-page .sign-in {
+    left: 1466px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 25px;
+  }
+  
+  .about-page .Search_icon {
+    height: 23px;
+    left: 1643px;
+    position: absolute;
+    top: 27px;
+    width: 36px;
+  }
+  
+  .about-page .Library_Logo {
+    cursor: pointer;
+    height: 111px;
+    left: 37px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 111px;
+  }
+  
+  .about-page .Page-content {
+    align-items: center;
+    display: flex;
+    gap: 17px;
+    height: 807px;
+    margin-right: 38.0px;
+    min-width: 1653px;
+  }
+  
+  .about-page .Sidenav-aboutpeadmount {
+    align-items: flex-start;
+    display: flex;
+    gap: 64px;
+    height: 781px;
+    margin-top: 12.0px;
+    min-width: 924px;
+  }
+  
+  .about-page .Side-navbar {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-top: 23px;
+    min-height: 347px;
+    width: 209px;
+  }
+  
+  .about-page .About-peadmount {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 781px;
+    width: 651px;
+  }
+  
+  .about-page .title {
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 18px;
+    min-height: 60px;
+  }
+  
+  .about-page .blurb_1 {
+    align-self: flex-end;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 39px;
+    min-height: 174px;
+    width: 633px;
+  }
+  
+  .about-page .woman_with_books {
+    height: 435px;
+    margin-top: 73px;
+    object-fit: cover;
+    width: 617px;
+  }
+  
+  .about-page .Our-mission-our-why {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 807px;
+    width: 712px;
+  }
+  
+  .about-page .blurb_2 {
+    margin-top: 19px;
+  }
+  
+  .about-page .Our-why {
+    margin-top: 44px;
+  }
+  
+  .about-page .blurb_3 {
+    margin-top: 30px;
+  }
+  
+  .about-page .blurb_4 {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 297px;
+    width: 712px;
+  }
+  
+  .about-page .Our-mission {
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 60px;
+  }
+}
+
+/*Tablets*/
+@media only screen and (min-width: 768px) {}
+
+/*Laptops*/
+@media only screen and (min-width: 992px) {}
+
+/* responsive code */
+@media all and (max-width:1640px){
+  .about-page {
+    min-height: auto;
+    max-width: 1765px;
+    min-width: 100%;
+    width: 100%;
+    align-items: flex-start;
+  }
+  .about-page .Search-bar {
+    max-width: 1765px;
+    width: 100%;
+  }
+  .about-page .Page-content {
+    height: auto;
+    margin-right: 0;
+    max-width: 1653px;
+    min-width: 100%;
+    width: 100%;
+    padding: 0 15px;
+  }
+  .about-page .About-peadmount {
+    min-height: auto;
+    width: 60%;
+  }
+  .about-page .blurb_1 {
+    margin-top: 39px;
+    min-height: auto;
+    width: auto;
+  }
+  .about-page .Our-mission-our-why {
+    min-height: auto;
+    width: 40%;
+  }
+  .about-page .Sidenav-aboutpeadmount {
+    height: auto;
+    min-width: auto;
+    width: 60%;
+  }
+  .about-page .woman_with_books {
+    height: auto;
+    width: 100%;
+  }
+  .about-page .blurb_4 {
+    min-height: auto;
+    width: 100%;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .about-page .Top-navbar {
+    width: 100%;
+  }
+  
+ .about-page .Search_icon {
+    left: auto;
+    right: 0;
+  }
+ .about-page .sign-in {
+    left: auto;
+    right: 90px;
+  }
+ .about-page .about-us {
+    left: auto;
+    right: 206px;
+  }
+ .about-page .events {
+    left: auto;
+    right: 355px;
+  }
+  .about-page .Side-navbar {
+    min-width: 209px;
+    width: 209px;
+  }
+ .about-page .location {
+    left: auto;
+    right: 465px;
+  }
+}
+
+@media all and (max-width:991px){
+  .about-page .Page-content {
+    display: block;
+    padding-bottom: 30px;
+  }
+  .about-page .Sidenav-aboutpeadmount {
+    display: block;
+  }
+  .about-page .Side-navbar {
+    min-width: 100%;
+    width: 100% !important;
+    align-items: center;
+  }
+  .about-page .Sidenav-aboutpeadmount {
+    width: 100%;
+  }
+  .about-page .title {
+    min-height: 40px;
+    font-size: 35px;
+    padding-top: 30px;
+    width:100%;
+  }
+  .about-page .About-peadmount {
+    width: 100%;
+    text-align: center;
+  }
+  .about-page .Our-mission-our-why {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .about-page .Our-mission {
+    min-height: 40px;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+  }
+  .about-page .Our-why {
+    width: 100%;
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+@media all and (max-width:767px){
+  p {
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+  }
+  .about-page .about-us {
+    padding-top: 78px;
+    position: initial;
+    text-align: center;
+  }
+  .about-page .events {
+    position: initial;
+    text-align: center;
+  }
+  .about-page .Library_Logo {
+    height: 68px;
+    left: 6px;
+    top: 6px;
+    width: 68px;
+  }
+  .about-page .location {
+    position: initial;
+    text-align: center;
+  }
+  .about-page .Page-content {
+    padding-top: 60px;
+  }
+}
